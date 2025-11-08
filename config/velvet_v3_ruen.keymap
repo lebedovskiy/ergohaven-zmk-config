@@ -75,6 +75,15 @@
             wait-ms = <0>;
             tap-ms = <30>;
         };
+
+        test_macro: test_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N1 &kp NUMBER_2 &kp NUMBER_3>;
+            label = "TEST_MACRO";
+            tap-ms = <15>;
+            wait-ms = <30>;
+        };
     };
 
     keymap {
