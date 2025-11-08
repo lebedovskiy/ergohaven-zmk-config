@@ -210,10 +210,10 @@
 
         Game {
             bindings = <
-&to 0   &trans  &kp Q   &kp W   &kp E  &kp R                        &kp T   &kp Y   &kp U   &kp I   &trans  &trans
-&trans  &trans  &kp A   &kp S   &kp D  &kp F                        &kp G   &kp H   &kp K   &trans  &trans  &trans
-&trans  &trans  &trans  &kp X   &kp J  &kp L                        &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &none  &none  &mkp MB4    &mkp MB5  &trans  &none   &trans  &trans
+&to 0   &trans  &kp Q   &kp W   &kp E    &kp R                        &kp T    &kp Y          &kp U     &kp I   &trans  &trans
+&trans  &trans  &kp A   &kp S   &kp D    &kp F                        &kp G    &kp H          &kp K     &kp O   &trans  &trans
+&trans  &trans  &trans  &kp X   &kp J    &kp L                        &kp SQT  &kp BACKSPACE  &kp HOME  &trans  &trans  &trans
+                &trans  &trans  &kp TAB  &none  &mkp MB4    &mkp MB5  &trans   &none          &trans    &trans
             >;
         };
     };
