@@ -113,10 +113,10 @@
 
         en {
             bindings = <
-&kp ESC    &kp Q  &kp W         &kp E         &kp R      &kp T                              &kp Y        &kp U  &kp I      &kp O     &kp P     &mt DELETE BACKSPACE
-&kp TAB    &kp A  &kp S         &kp D         &kp F      &kp G                              &kp H        &kp J  &kp K      &kp L     &kp SEMI  &kp BSLH
-&kp LSHFT  &kp Z  &kp X         &kp C         &kp V      &kp B                              &kp N        &kp M  &kp COMMA  &kp DOT   &to 9     &kp ENTER
-                  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &lt 2 SPACE  &kp SPACE    &kp RET  &lt 3 SPACE  &none  &kp LBKT   &kp RBKT
+&kp ESC    &kp Q  &kp W         &kp E         &kp R      &kp T                                            &kp Y        &kp U  &kp I      &kp O     &kp P     &mt DELETE BACKSPACE
+&kp TAB    &kp A  &kp S         &kp D         &kp F      &kp G                                            &kp H        &kp J  &kp K      &kp L     &kp SEMI  &kp BSLH
+&kp LSHFT  &kp Z  &kp X         &kp C         &kp V      &kp B                                            &kp N        &kp M  &kp COMMA  &kp DOT   &to 9     &kp ENTER
+                  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &lt 2 SPACE  &mt COMMA DOT    &mt EXCL QUESTION  &lt 3 SPACE  &none  &kp LBKT   &kp RBKT
             >;
 
             display-name = "Base";
